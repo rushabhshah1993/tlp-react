@@ -1,0 +1,26 @@
+.home {
+    font-family: 'Roboto', sans-serif;
+
+    .header {
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        background: #7952b3;
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .foodContainer {
+        padding: 0 8px;
+
+        .sectionTitle {
+            font-weight: 900;
+        }
+
+        .recipes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 1rem;
+            row-gap: 1rem;
+        }
+    }
+}
