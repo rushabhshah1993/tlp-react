@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+    .button {
+        height: 40px;
+        font-size: 14px;
+        border: 1px solid #17a2b8;
+        background: transparent;
+        border-radius: 4px;
+        color: #007bff;
+        cursor: pointer;
+
+        &:hover {
+            background: #17a2b8;
+            color: white;
+        }
+    }
+}
